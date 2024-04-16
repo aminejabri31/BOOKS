@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore BooksEcommerce-master/BooksEcommerce.sln
     - name: Build
       run: dotnet build BooksEcommerce-master/BooksEcommerce.sln
     - name: Test
